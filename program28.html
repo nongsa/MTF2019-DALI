@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang=en-GB>
+  <head>
+    <meta charset='utf-8'>
+    <title>MTF2019 Mekong Tourism Forum</title>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='description' content='An Air horn. Probably the best air horn web app there is.'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='canonical' href='https://mekongtourismforum.org/'>
+    <link rel='manifest' href='manifest.json'>
+
+    <meta name='mobile-web-app-capable' content='yes'>
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='application-name' content='Air Horner'>
+    <meta name='apple-mobile-web-app-status-bar-style' content='black'>
+    <meta name='apple-mobile-web-app-title' content='Air Horner'>
+    <link rel='icon' sizes='192x192' href='/images/icon/MTF19_192x192.png'>
+    <link rel='apple-touch-icon' href='/images/icon/MTF19_192x192.png'>
+    <meta name='msapplication-TileImage' content='/images/icon/MTF19_144x144.png'>
+    <meta name='msapplication-TileColor' content='#2196F3'>
+    <meta name='theme-color' content='#2196F3'>
+    <meta property='og:title' content='Air Horn'>
+    <meta property='og:type' content='website'>
+    <meta property='og:image' content='https://airhorner.com/images/touch/Airhorner_192.png'>
+    <meta property='og:url' content='https://airhorner.com/'>
+    <meta property='og:description' content='The best and easiest Air Horn web app there is. No install just use it right away in your browser!'>
+    <meta name='twitter:card' content='summary'>
+    <meta name='twitter:url' content='https://airhorner.com/'>
+    <meta name='twitter:title' content='Air Horn'>
+    <meta name='twitter:description' content='The best and easiest Air Horn web app there is. No install just use it right away in your browser!'>
+    <meta name='twitter:image' content='https://airhorner.com/images/touch/Airhorner_192.png'>
+    <meta name='twitter:creator' content='@paul_kinlan'>
+    
+    <link rel="stylesheet" href="style-custom.css">
+    <link rel="stylesheet" href="style-responsive.css">
+    <link rel="stylesheet" href="style.css">
+    <style>   /* for menu hamberger */  
+             
+             label .menu {
+               position: absolute;
+               right: -100px;
+               top: -100px;
+               z-index: 100;
+               width: 200px;
+               height: 200px;
+               background:#82b440;
+               border-radius: 50% 50% 50% 50%;
+               -webkit-transition: .5s ease-in-out;
+               transition: .5s ease-in-out;
+               box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+               cursor: pointer;
+             }
+             
+             label .hamburger {
+               position: absolute;
+               top: 135px;
+               left: 50px;
+               width: 30px;
+               height: 2px;
+               background: #000;
+               display: block;
+               -webkit-transform-origin: center;
+               transform-origin: center;
+               -webkit-transition: .5s ease-in-out;
+               transition: .5s ease-in-out;
+             }
+             
+             label .hamburger:after, label .hamburger:before {
+               -webkit-transition: .5s ease-in-out;
+               transition: .5s ease-in-out;
+               content: "";
+               position: absolute;
+               display: block;
+               width: 100%;
+               height: 100%;
+               background: #000;
+             }
+             
+             label .hamburger:before { top: -10px; }
+             
+             label .hamburger:after { bottom: -10px; }
+             
+             label input { display: none; }
+             
+             label input:checked + .menu {
+               box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
+               border-radius: 0;
+             }
+             
+             label input:checked + .menu .hamburger {
+               -webkit-transform: rotate(45deg);
+               transform: rotate(45deg);
+             }
+             
+             label input:checked + .menu .hamburger:after {
+               -webkit-transform: rotate(90deg);
+               transform: rotate(90deg);
+               bottom: 0;
+             }
+             
+             label input:checked + .menu .hamburger:before {
+               -webkit-transform: rotate(90deg);
+               transform: rotate(90deg);
+               top: 0;
+             }
+             
+             label input:checked + .menu + ul { opacity: 1; }
+             
+             label ul {
+               z-index: 200;
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               -webkit-transform: translate(-50%, -50%);
+               transform: translate(-50%, -50%);
+               opacity: 0;
+               -webkit-transition: .25s 0s ease-in-out;
+               transition: .25s 0s ease-in-out;
+             }
+             label h4 {
+                 margin-left: 20px;
+                 word-spacing: 2px;
+                 margin: 0 0.5em 0 -0.75em;
+             }
+             label a {
+               margin-bottom: 1em;
+               display: block;
+               color: #000;
+               text-decoration: none;
+             }
+     </style>
+
+   <!-- end of menu-->
+  </head>
+  
+
+
+
+
+    
+   <!--copy from mekongforum-->
+   <body data-gr-c-s-loaded="true">
+    <div class="body-wrapper  float-menu" data-home="https://mekongtourismforum.org">
+        
+        <!--start menu hamberger-->
+       <!-- Top Navigation Menu -->
+<label>
+        <input type='checkbox'>
+        <span class='menu'> <span class='hamburger'></span> </span>
+        <ul>       
+
+        <h2><a href="program.html">Program</a></h2> 
+        <h2><a href="speakers.html">Speakers</a></h2> 
+        <h2><a href="partners.html">Partners</a></h2> 
+        <h2><a href="information.html">Information</a></h2>
+        </ul>        
+
+</label>
+        <!--end menu hamberger-->        
+               
+                
+
+
+
+        
+		<header class="gdlr-header-wrapper">
+            <!-- top navigation -->
+
+            <!-- logo -->
+            <div class="gdlr-header-inner">
+                <div class="gdlr-header-container container">
+				   <!-- logo -->
+                    <div class="gdlr-logo">
+                        <a href="https://mekongtourismforum.org">
+                            <img src="icon/MTF2019-logo.jpg" alt="" width="134" height="80" scale="0"> </a>
+                       
+                    </div>
+                    <!-- navigation -->  
+                </div>
+            </div>           
+        </header>
+		<!--body-->
+        <section id="content-section-2">
+            <div class="gdlr-color-wrapper  gdlr-show-all no-skin" style="background-color: #ffffff; padding-top: 65px; padding-bottom: 35px; ">
+                <div class="container">
+
+
+
+
+                    
+                     <!--content web-->
+                     <div class="container">
+                            <div class="gdlr-item-title-wrapper gdlr-item pos-left-caption ">
+                                <div class="gdlr-item-title-head">
+                                    <h3 class="gdlr-item-title gdlr-skin-title gdlr-skin-border gdlr-title-large">Program</h3>
+                                    <div class="gdlr-item-title-caption gdlr-skin-info">Tourism – a driver for cultural heritage preservation and poverty alleviation</div>
+                                    <div class="gdlr-item-title-nav"><a class="gdlr-item-title-link gdlr-info-font" href="MTF18_PostReport_06.pdf">Download MTF 2018 Post Report</a></div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="session-item-wrapper">
+                                <div class="gdlr-session-item gdlr-tab-session-item gdlr-item">
+                                    <div class="gdlr-session-item-head">
+                                        <div class="gdlr-session-item-head-info gdlr-active" data-tab="gdlr-tab-1">
+                                            <div class="gdlr-session-head-day">Day 1</div>
+                                            <div class="gdlr-session-head-date"><a href="program28.html">28 May 2019</a></div>
+                                        </div>
+                                    
+                                     
+                                        <div class="clear"></div>
+                                    </div>
+                      
+                                    <div class="gdlr-session-item-tab-content gdlr-tab-1 gdlr-active">
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>9:00 - 10:20</div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title"><a href="https://mekongtourismforum.org/index.php/session/opening/">MTF 2019 Official Opening</a></h3>
+                                                <div class="gdlr-session-item-excerpt">Chaired by H.E.&nbsp; Mr. Zhang Xu – Vice Minister, Ministry of Culture and Tourism of PRC</div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>10:20-10:45</div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title"><a href="https://mekongtourismforum.org/index.php/session/gms-tourism-townhall/">Break</a></h3>
+                                                <div class="gdlr-session-item-excerpt"></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>10:55 - 11:25</div>
+                                                    <div class="session-info session-speaker">
+                                                        <div class="session-speaker-inner"><i class="fa fa-user"></i>
+                                                            <div class="session-speaker-list">
+                                                                <div class="session-speaker-list-item"><a href="https://mekongtourismforum.org/index.php/speaker/ma-jinzhong/">Ma Jinzhong</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title"><a href="https://mekongtourismforum.org/index.php/session/the-development-of-tourism-stimulates-poverty-alleviation-in-villages/">The Development of Tourism Stimulates Poverty Alleviation in villages</a></h3>
+                                                <div class="gdlr-session-item-excerpt"></div>
+                                                <div class="gdlr-session-thumbnail-wrapper"></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>11:25-11:50</div>
+                                                    <div class="session-info session-speaker">
+                                                        <div class="session-speaker-inner"><i class="fa fa-user"></i>
+                                                            <div class="session-speaker-list">
+                                                                <div class="session-speaker-list-item"><a href="https://mekongtourismforum.org/index.php/speaker/ji-xiao-dong/">Ji Xiao Dong</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title"><a href="https://mekongtourismforum.org/index.php/session/the-practice-of-poverty-alleviation-with-tourism-20-years-in-yunnan/">The Practice of Poverty Alleviation with Tourism—20 years in Yunnan</a></h3>
+                                                <div class="gdlr-session-item-excerpt"></div>
+                                                <div class="gdlr-session-thumbnail-wrapper">
+                                                    <div class="gdlr-speaker-thumbnail">
+                                                        <div class="gdlr-speaker-thumbnail-inner">
+                                                            <a href="https://mekongtourismforum.org/index.php/speaker/ji-xiao-dong/"><img src="https://mekongtourismforum.org/wp-content/uploads/2019/05/china_chamber_of_tourism-150x113.png" alt="" width="150" height="113" scale="0" style="opacity: 1;"></a>
+                                                        </div>
+                                                        <div class="gdlr-speaker-thumbnail-title">Ji Xiao Dong</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>12:00-14:00</div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title"><a href="https://mekongtourismforum.org/index.php/session/lunch-4/">Lunch</a></h3>
+                                                <div class="gdlr-session-item-excerpt"></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>14:05-14:25</div>
+                                                    <div class="session-info session-speaker">
+                                                        <div class="session-speaker-inner"><i class="fa fa-user"></i>
+                                                            <div class="session-speaker-list">
+                                                                <div class="session-speaker-list-item"><a href="https://mekongtourismforum.org/index.php/speaker/dr-brian-linden/">Brian Linden</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title"><a href="https://mekongtourismforum.org/index.php/session/rail-tourism-as-a-driver-for-sustainability-in-the-gms/">Rail Tourism as a driver for sustainability in the GMS</a></h3>
+                                                <div class="gdlr-session-item-excerpt"></div>
+                                                <div class="gdlr-session-thumbnail-wrapper">
+                                                    <div class="gdlr-speaker-thumbnail">
+                                                        <div class="gdlr-speaker-thumbnail-inner">
+                                                            <a href="https://mekongtourismforum.org/index.php/speaker/dr-brian-linden/"><img src="https://mekongtourismforum.org/wp-content/uploads/2019/03/Brian-Linden-SquareCrop-150x150.jpg" alt="" width="150" height="150" scale="0" style="opacity: 1;"></a>
+                                                        </div>
+                                                        <div class="gdlr-speaker-thumbnail-title">Brian Linden</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>14:25-15:10</div>
+                                                    <div class="session-info session-speaker">
+                                                        <div class="session-speaker-inner"><i class="fa fa-user"></i>
+                                                            <div class="session-speaker-list">
+                                                                <div class="session-speaker-list-item"><a href="https://mekongtourismforum.org/index.php/speaker/daw-khun-than-win/">Daw Khun Than Win</a></div>
+                                                                <div class="session-speaker-list-item"><a href="https://mekongtourismforum.org/index.php/speaker/dr-jiraporn-prommaha/">Dr. Jiraporn Prommaha</a></div>
+                                                                <div class="session-speaker-list-item"><a href="https://mekongtourismforum.org/index.php/speaker/zhang-hailin/">Zhang Hailin</a></div>
+                                                                <div class="session-speaker-list-item"><a href="https://mekongtourismforum.org/index.php/speaker/latdaphone-vongkhamheng/">Latdaphone Vongkhamheng</a></div>
+                                                                <div class="session-speaker-list-item"><a href="https://mekongtourismforum.org/index.php/speaker/steven-schipani/">Steven Schipani</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title"><a href="https://mekongtourismforum.org/index.php/session/managing-cultural-heritage-preservation-and-poverty-alleviation-in-the-gms/">Managing Cultural Heritage Preservation and Poverty Alleviation in the GMS</a></h3>
+                                                <div class="gdlr-session-item-excerpt">This session, focusing on the theme of MTF 2019 looks into the management of sustainable and responsible tourism in destinations in the Greater Mekong Subregion (GMS). The session starts with...
+                                                    <div class="clear"></div><a href="https://mekongtourismforum.org/index.php/session/managing-cultural-heritage-preservation-and-poverty-alleviation-in-the-gms/" class="gdlr-info-font excerpt-read-more">Read More</a></div>
+                                                <div class="gdlr-session-thumbnail-wrapper">
+                                                    <div class="gdlr-speaker-thumbnail">
+                                                        <div class="gdlr-speaker-thumbnail-inner">
+                                                            <a href="https://mekongtourismforum.org/index.php/speaker/daw-khun-than-win/">
+                                                                <img src="images/KKHIN-THAN-WIN-150x150.jpg" alt="" width="150" height="150" scale="0" style="opacity: 1;"></a>
+                                                        </div>
+                                                        <div class="gdlr-speaker-thumbnail-title">Daw Khun Than Win</div>
+                                                    </div>
+                                                    <div class="gdlr-speaker-thumbnail">
+                                                        <div class="gdlr-speaker-thumbnail-inner">
+                                                            <a href="https://mekongtourismforum.org/index.php/speaker/dr-jiraporn-prommaha/">
+                                                                <img src="images/Gina-150x150.jpg" alt="" width="150" height="150" scale="0" style="opacity: 1;"></a>
+                                                        </div>
+                                                        <div class="gdlr-speaker-thumbnail-title">Dr. Jiraporn Prommaha</div>
+                                                    </div>
+                                                    <div class="gdlr-speaker-thumbnail">
+                                                        <div class="gdlr-speaker-thumbnail-inner">
+                                                            <a href="https://mekongtourismforum.org/index.php/speaker/zhang-hailin/">
+                                                                <img src="images/Zhang-Hailin-150x150.png" alt="" width="150" height="150" scale="0" style="opacity: 1;"></a>
+                                                        </div>
+                                                        <div class="gdlr-speaker-thumbnail-title">Zhang Hailin</div>
+                                                    </div>
+                                                    <div class="gdlr-speaker-thumbnail">
+                                                        <div class="gdlr-speaker-thumbnail-inner">
+                                                            <a href="https://mekongtourismforum.org/index.php/speaker/latdaphone-vongkhamheng/">
+                                                                <img src="images/photo.-copy-150x150.jpg" alt="" width="150" height="150" scale="0" style="opacity: 1;"></a>
+                                                        </div>
+                                                        <div class="gdlr-speaker-thumbnail-title">Latdaphone Vongkhamheng</div>
+                                                    </div>
+                                                    <div class="gdlr-speaker-thumbnail">
+                                                        <div class="gdlr-speaker-thumbnail-inner">
+                                                            <a href="https://mekongtourismforum.org/index.php/speaker/steven-schipani/">
+                                                                <img src="images/Steven-150x150.jpg" alt="" width="150" height="150" scale="0" style="opacity: 1;"></a>
+                                                        </div>
+                                                        <div class="gdlr-speaker-thumbnail-title">Steven Schipani</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>15:10-15:50</div>
+                                                    <div class="session-info session-speaker">
+                                                        <div class="session-speaker-inner"><i class="fa fa-user"></i>
+                                                            <div class="session-speaker-list">
+                                                                <div class="session-speaker-list-item"><a href="https://mekongtourismforum.org/index.php/speaker/kanha-sam/">Kanha Sam</a></div>
+                                                                <div class="session-speaker-list-item"><a href="https://mekongtourismforum.org/index.php/speaker/dr-brian-linden/">Brian Linden</a></div>
+                                                                <div class="session-speaker-list-item"><a href="https://mekongtourismforum.org/index.php/speaker/jens-thraenhart/">Jens Thraenhart</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title"><a href="https://mekongtourismforum.org/index.php/session/the-power-of-social-enterprises-to-drive-sustainable-tourism/">Social Enterprises driving Sustainable Tourism</a></h3>
+                                                <div class="gdlr-session-item-excerpt">Social Enterprises and small sustainable travel experiences have become the heroes of the Mekong Region. The Experience Mekong Collection has been 
+                                                    showcasing the best responsible small tourism businesses in the...
+                                                    <div class="clear"></div>
+                                                    <a href="https://mekongtourismforum.org/index.php/session/the-power-of-social-enterprises-to-drive-sustainable-tourism/" class="gdlr-info-font excerpt-read-more">Read More</a></div>
+                                                <div class="gdlr-session-thumbnail-wrapper">
+                                                    <div class="gdlr-speaker-thumbnail">
+                                                        <div class="gdlr-speaker-thumbnail-inner">
+                                                            <a href="https://mekongtourismforum.org/index.php/speaker/kanha-sam/">
+                                                                <img src="images/Ksnha-150x150.jpg" alt="" width="150" height="150" scale="0"></a>
+                                                        </div>
+                                                        <div class="gdlr-speaker-thumbnail-title">Kanha Sam</div>
+                                                    </div>
+                                                    <div class="gdlr-speaker-thumbnail">
+                                                        <div class="gdlr-speaker-thumbnail-inner">
+                                                            <a href="https://mekongtourismforum.org/index.php/speaker/dr-brian-linden/">
+                                                                <img src="images/Brian-Linden-SquareCrop-150x150.jpg" alt="" width="150" height="150" scale="0" style="opacity: 0;"></a>
+                                                        </div>
+                                                        <div class="gdlr-speaker-thumbnail-title">Brian Linden</div>
+                                                    </div>
+                                                    <div class="gdlr-speaker-thumbnail">
+                                                        <div class="gdlr-speaker-thumbnail-inner">
+                                                            <a href="https://mekongtourismforum.org/index.php/speaker/jens-thraenhart/">
+                                                                <img src="images/Jens-150x150.jpg" alt="" width="150" height="150" scale="0" style="opacity: 0;"></a>
+                                                        </div>
+                                                        <div class="gdlr-speaker-thumbnail-title">Jens Thraenhart</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>15:50-16:20</div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title"><a href="https://mekongtourismforum.org/index.php/session/break/">Break</a></h3>
+                                                <div class="gdlr-session-item-excerpt"></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>16:20-16:45</div>
+                                                    <div class="session-info session-speaker">
+                                                        <div class="session-speaker-inner"><i class="fa fa-user"></i>
+                                                            <div class="session-speaker-list">
+                                                                <div class="session-speaker-list-item"><a href="https://mekongtourismforum.org/index.php/speaker/mei-zhang/">Mei Zhang</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title">
+                                                    <a href="https://mekongtourismforum.org/index.php/session/tourism-and-culture-driving-sustainability/">
+                                                        Tourism and Culture – Driving Sustainability</a></h3>
+                                                <div class="gdlr-session-item-excerpt">Mei Zhang is a native of Dali, and in 2016 launched her first book “Travels through Dali with a leg of ham”. in search of her roots of the region’s...
+                                                    <div class="clear"></div>
+                                                    <a href="https://mekongtourismforum.org/index.php/session/tourism-and-culture-driving-sustainability/" class="gdlr-info-font excerpt-read-more">
+                                                        Read More</a></div>
+                                                <div class="gdlr-session-thumbnail-wrapper">
+                                                    <div class="gdlr-speaker-thumbnail">
+                                                        <div class="gdlr-speaker-thumbnail-inner">
+                                                            <a href="https://mekongtourismforum.org/index.php/speaker/mei-zhang/">
+                                                        <img src="images/Mei-Zhang-150x150.jpg" alt="" width="150" height="150" scale="0"></a>
+                                                        </div>
+                                                        <div class="gdlr-speaker-thumbnail-title">Mei Zhang</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>16:45-17:25</div>
+                                                    <div class="session-info session-speaker">
+                                                        <div class="session-speaker-inner"><i class="fa fa-user"></i>
+                                                            <div class="session-speaker-list">
+                                                                <div class="session-speaker-list-item"><a href="https://mekongtourismforum.org/index.php/speaker/jereth-jansen/">Jereth Jansen</a></div>
+                                                                <div class="session-speaker-list-item"><a href="https://mekongtourismforum.org/index.php/speaker/gerrit-krueger/">Gerrit Krueger</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title"><a href="https://mekongtourismforum.org/index.php/session/the-power-of-visual-storytelling/">
+                                                    The Power of Visual Storytelling</a></h3>
+                                                <div class="gdlr-session-item-excerpt">Inspiring people via visual content from photos to videos has been an important way for destinations to promote experiences to travelers. The successful MekongMoments.com platform and the award-winning Mekong Mini...
+                                                    <div class="clear"></div>
+                                           <a href="https://mekongtourismforum.org/index.php/session/the-power-of-visual-storytelling/" class="gdlr-info-font excerpt-read-more">Read More</a></div>
+                                                <div class="gdlr-session-thumbnail-wrapper">
+                                                    <div class="gdlr-speaker-thumbnail">
+                                                        <div class="gdlr-speaker-thumbnail-inner">
+                                                            <a href="https://mekongtourismforum.org/index.php/speaker/jereth-jansen/">
+                                                                <img src="images/Jereth-150x150.jpeg" alt="" width="150" height="150" scale="0"></a>
+                                                        </div>
+                                                        <div class="gdlr-speaker-thumbnail-title">Jereth Jansen</div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>16:45-17:00</div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title"><a href="https://mekongtourismforum.org/index.php/session/closing/">Closing</a></h3>
+                                                <div class="gdlr-session-item-excerpt"></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>18:00-21:00</div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title"><a href="https://mekongtourismforum.org/index.php/session/mtf-2019-gala-dinner/">MTF 2019 Gala Dinner</a></h3>
+                                                <div class="gdlr-session-item-excerpt"></div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                      
+                      
+                      
+                                    <div class="gdlr-session-item-tab-content gdlr-tab-2 ">
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>8:00-18:00</div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title"><a href="https://mekongtourismforum.org/index.php/session/mtf-2019-cultural-experience/">MTF 2019 Cultural Experience</a></h3>
+                                                <div class="gdlr-session-item-excerpt">MTF 2019 Cultural Experience</div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="gdlr-session-item-content-wrapper">
+                                            <div class="gdlr-session-item-divider"></div>
+                                            <div class="gdlr-session-item-content-info">
+                                                <div class="gdlr-session-info">
+                                                    <div class="session-info session-time"><i class="fa fa-clock-o"></i>18:00-21:30</div>
+                                                    <div class="session-info session-location"><i class="fa fa-location-arrow"></i>Dali Regent Hotel</div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="gdlr-session-item-content">
+                                                <h3 class="gdlr-session-item-title"><a href="https://mekongtourismforum.org/index.php/session/buffet-dinner-with-mekong-tourism-recognition-ceremony/">Buffet Dinner with Mekong Tourism Recognition Ceremony</a></h3>
+                                                <div class="gdlr-session-item-excerpt">Recognition of the 2019 Experience Mekong Collection Showcases (www.ExperienceMekong.org)</div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                      
+                      
+                      
+                      
+                      
+                      
+                                <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="clear"></div>
+                        </div>
+                      
+                     <!--end of content web-->
+                    
+                    
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </section>
+        <!--body-->     
+    </footer>
+    <div class="copyright-wrapper">
+              <div class="copyright-container container">
+                 
+                         
+                              Mekong Tourism Coordinating Office - MTF 2019 © Copyright, All Right Reserved	
+                        
+                  <div class="clear"></div>
+              </div>
+  </div>
+  </footer>
+   
+   <!--end from copy mekongforum-->
+
+
+
+    <script src=/scripts/main.min.js></script>
+    <script src=/scripts/comlink.global.js></script>
+    <script src=/scripts/messagechanneladapter.global.js></script>
+    
+    
+    
+    
+    
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' })
+          .then(function(registration) {
+                console.log('Service Worker Registered');
+          });
+
+        navigator.serviceWorker.ready.then(function(registration) {
+           console.log('Service Worker Ready');
+        });
+      }
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-59325548-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+
+  <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+        ga('create', 'UA-46156385-1', 'cssscript.com');
+        ga('send', 'pageview');
+      
+      </script>
+
+
+</html>

@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang=en-GB>
+  <head>
+    <meta charset='utf-8'>
+    <title>MTF2019 Mekong Tourism Forum</title>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='description' content='An Air horn. Probably the best air horn web app there is.'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='canonical' href='https://mekongtourismforum.org/'>
+    <link rel='manifest' href='manifest.json'>
+
+    <meta name='mobile-web-app-capable' content='yes'>
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='application-name' content='Air Horner'>
+    <meta name='apple-mobile-web-app-status-bar-style' content='black'>
+    <meta name='apple-mobile-web-app-title' content='Air Horner'>
+    <link rel='icon' sizes='192x192' href='/images/icon/MTF19_192x192.png'>
+    <link rel='apple-touch-icon' href='/images/icon/MTF19_192x192.png'>
+    <meta name='msapplication-TileImage' content='/images/icon/MTF19_144x144.png'>
+    <meta name='msapplication-TileColor' content='#2196F3'>
+    <meta name='theme-color' content='#2196F3'>
+    <meta property='og:title' content='Air Horn'>
+    <meta property='og:type' content='website'>
+    <meta property='og:image' content='https://airhorner.com/images/touch/Airhorner_192.png'>
+    <meta property='og:url' content='https://airhorner.com/'>
+    <meta property='og:description' content='The best and easiest Air Horn web app there is. No install just use it right away in your browser!'>
+    <meta name='twitter:card' content='summary'>
+    <meta name='twitter:url' content='https://airhorner.com/'>
+    <meta name='twitter:title' content='Air Horn'>
+    <meta name='twitter:description' content='The best and easiest Air Horn web app there is. No install just use it right away in your browser!'>
+    <meta name='twitter:image' content='https://airhorner.com/images/touch/Airhorner_192.png'>
+    <meta name='twitter:creator' content='@paul_kinlan'>
+    
+    <link rel="stylesheet" href="style-custom.css">
+    <link rel="stylesheet" href="style-responsive.css">
+    <link rel="stylesheet" href="style.css">
+    <style>   /* for menu hamberger */  
+             
+             label .menu {
+               position: absolute;
+               right: -100px;
+               top: -100px;
+               z-index: 100;
+               width: 200px;
+               height: 200px;
+               background:#82b440;
+               border-radius: 50% 50% 50% 50%;
+               -webkit-transition: .5s ease-in-out;
+               transition: .5s ease-in-out;
+               box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+               cursor: pointer;
+             }
+             
+             label .hamburger {
+               position: absolute;
+               top: 135px;
+               left: 50px;
+               width: 30px;
+               height: 2px;
+               background: #000;
+               display: block;
+               -webkit-transform-origin: center;
+               transform-origin: center;
+               -webkit-transition: .5s ease-in-out;
+               transition: .5s ease-in-out;
+             }
+             
+             label .hamburger:after, label .hamburger:before {
+               -webkit-transition: .5s ease-in-out;
+               transition: .5s ease-in-out;
+               content: "";
+               position: absolute;
+               display: block;
+               width: 100%;
+               height: 100%;
+               background: #000;
+             }
+             
+             label .hamburger:before { top: -10px; }
+             
+             label .hamburger:after { bottom: -10px; }
+             
+             label input { display: none; }
+             
+             label input:checked + .menu {
+               box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
+               border-radius: 0;
+             }
+             
+             label input:checked + .menu .hamburger {
+               -webkit-transform: rotate(45deg);
+               transform: rotate(45deg);
+             }
+             
+             label input:checked + .menu .hamburger:after {
+               -webkit-transform: rotate(90deg);
+               transform: rotate(90deg);
+               bottom: 0;
+             }
+             
+             label input:checked + .menu .hamburger:before {
+               -webkit-transform: rotate(90deg);
+               transform: rotate(90deg);
+               top: 0;
+             }
+             
+             label input:checked + .menu + ul { opacity: 1; }
+             
+             label ul {
+               z-index: 200;
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               -webkit-transform: translate(-50%, -50%);
+               transform: translate(-50%, -50%);
+               opacity: 0;
+               -webkit-transition: .25s 0s ease-in-out;
+               transition: .25s 0s ease-in-out;
+             }
+             label h4 {
+                 margin-left: 20px;
+                 word-spacing: 2px;
+                 margin: 0 0.5em 0 -0.75em;
+             }
+             label a {
+               margin-bottom: 1em;
+               display: block;
+               color: #000;
+               text-decoration: none;
+             }
+     </style>
+
+   <!-- end of menu-->
+  </head>
+  
+
+
+
+
+    
+   <!--copy from mekongforum-->
+   <body data-gr-c-s-loaded="true">
+    <div class="body-wrapper  float-menu" data-home="https://mekongtourismforum.org">
+        
+        <!--start menu hamberger-->
+       <!-- Top Navigation Menu -->
+<label>
+        <input type='checkbox'>
+        <span class='menu'> <span class='hamburger'></span> </span>
+        <ul>       
+
+        <h2><a href="program.html">Program</a></h2> 
+        <h2><a href="speakers.html">Speakers</a></h2> 
+        <h2><a href="partners.html">Partners</a></h2> 
+        <h2><a href="information.html">Information</a></h2>
+        </ul>        
+
+</label>
+        <!--end menu hamberger-->        
+               
+                
+
+
+
+        
+		<header class="gdlr-header-wrapper">
+            <!-- top navigation -->
+
+            <!-- logo -->
+            <div class="gdlr-header-inner">
+                <div class="gdlr-header-container container">
+				   <!-- logo -->
+                    <div class="gdlr-logo">
+                        <a href="https://mekongtourismforum.org">
+                            <img src="images/icons/MTF2019-logo.jpg" alt="" width="134" height="80" scale="0"> </a>
+                       
+                    </div>
+                    <!-- navigation -->  
+                </div>
+            </div>           
+        </header>
+		<!--body-->
+        <section id="content-section-2">
+            <div class="gdlr-color-wrapper  gdlr-show-all no-skin" style="background-color: #ffffff; padding-top: 65px; padding-bottom: 35px; ">
+                <div class="container">
+
+
+
+
+                    
+                     <!--content web-->
+                    
+                     <div class="container">
+                            <div class="content-wrapper">
+                                   <div class="gdlr-content">
+                           
+                                           <!-- Above Sidebar Section-->
+                                                           
+                                           <!-- Sidebar With Content Section-->
+                                                       <div class="main-content-container container gdlr-item-start-content">
+                                                   <div class="gdlr-item gdlr-main-content">
+                                                       <h3>By Air</h3>
+                                   <p>At the moment, Dali can be accessed by several flights from multiple cites such as Beijing, Shanghai, Kunming, Xishuangbanna, Tianjin, Chengdu, Chongqing, Guiyang and Guangzhou. Many flights, such as to Guangzhou and Kunming, are operated daily.</p>
+                                   <p>Direct flights include&nbsp;Dali-Kunming&nbsp;(Daily), Dali-Chengdu (Daily), Dali-Chongqing, and Dali-Xishuangbanna (Daily). You can fly to many large cities, such as Beijing, Shanghai, Guangzhou and Hong Kong via Kunming.</p>
+                                   <p>Dali (Huangcaoba) Airport is located on the southeast bank of Erhai Lake. The airport is about 13 kilometres away from the city centre with a couple of choices into town such as bus No.7 makes a round-trip between Xiaguan and the airport costing CNY1 and airport shuttles go to downtown areas. Taxis are also available to the airport for about CNY 80.</p>
+                                   <h3>By Train</h3>
+                                   <p>Recently, Dali can be accessed by the latest high-speed train service from Kunming daily with an average interval of 25 minutes. There are many high-speed D trains from Kunming to Dali Train Station (in Dali New City-Xiaguan), leaving during about 06:30-21:30 every day, the trains need only about 2-3 hours time for arriving.</p>
+                                   <h3>By Road</h3>
+                                   <p>The other options to get to Dali is to take coaches to shuttle between the two cities (Kunming to Dali). Nowadays there are over 50 pairs of coaches running between these two cities with an interval of about 30 minutes. The prices range from around CNY 80 to CNY 160. The total duration of the journey is about 4 – 5 hours.</p>
+                                   <p>For more information about high-speed train and coach service&nbsp;<a href="https://www.travelchinaguide.com/china-trains/high-speed/kunming-dali.htm">https://www.travelchinaguide.com/china-trains/high-speed/kunming-dali.htm</a> /&nbsp;<a href="https://www.chinadiscovery.com/dali-tours/transportation.html">https://www.chinadiscovery.com/dali-tours/transportation.html</a></p>
+                                   <h3></h3>
+                                   <p>&nbsp;</p>
+                                   <p>&nbsp;</p>
+                                   <p>&nbsp;</p>
+                                                   </div>
+                                               </div>
+                                               
+                                           
+                                           <!-- Below Sidebar Section-->
+                                           
+                                           
+                                       </div>
+                           
+                                  </div>
+                             </div>
+
+
+                     <!--end of content web-->
+                    
+                    
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </section>
+        <!--body-->     
+    </footer>
+    <div class="copyright-wrapper">
+              <div class="copyright-container container">
+                 
+                         
+                              Mekong Tourism Coordinating Office - MTF 2019 © Copyright, All Right Reserved	
+                        
+                  <div class="clear"></div>
+              </div>
+  </div>
+  </footer>
+   
+   <!--end from copy mekongforum-->
+
+
+
+    <script src=/scripts/main.min.js></script>
+    <script src=/scripts/comlink.global.js></script>
+    <script src=/scripts/messagechanneladapter.global.js></script>
+    
+    
+    
+    
+    
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' })
+          .then(function(registration) {
+                console.log('Service Worker Registered');
+          });
+
+        navigator.serviceWorker.ready.then(function(registration) {
+           console.log('Service Worker Ready');
+        });
+      }
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-59325548-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+
+  <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+        ga('create', 'UA-46156385-1', 'cssscript.com');
+        ga('send', 'pageview');
+      
+      </script>
+
+
+</html>

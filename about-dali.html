@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang=en-GB>
+  <head>
+    <meta charset='utf-8'>
+    <title>MTF2019 Mekong Tourism Forum</title>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='description' content='An Air horn. Probably the best air horn web app there is.'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='canonical' href='https://mekongtourismforum.org/'>
+    <link rel='manifest' href='manifest.json'>
+
+    <meta name='mobile-web-app-capable' content='yes'>
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='application-name' content='Air Horner'>
+    <meta name='apple-mobile-web-app-status-bar-style' content='black'>
+    <meta name='apple-mobile-web-app-title' content='Air Horner'>
+    <link rel='icon' sizes='192x192' href='/images/icon/MTF19_192x192.png'>
+    <link rel='apple-touch-icon' href='/images/icon/MTF19_192x192.png'>
+    <meta name='msapplication-TileImage' content='/images/icon/MTF19_144x144.png'>
+    <meta name='msapplication-TileColor' content='#2196F3'>
+    <meta name='theme-color' content='#2196F3'>
+    <meta property='og:title' content='Air Horn'>
+    <meta property='og:type' content='website'>
+    <meta property='og:image' content='https://airhorner.com/images/touch/Airhorner_192.png'>
+    <meta property='og:url' content='https://airhorner.com/'>
+    <meta property='og:description' content='The best and easiest Air Horn web app there is. No install just use it right away in your browser!'>
+    <meta name='twitter:card' content='summary'>
+    <meta name='twitter:url' content='https://airhorner.com/'>
+    <meta name='twitter:title' content='Air Horn'>
+    <meta name='twitter:description' content='The best and easiest Air Horn web app there is. No install just use it right away in your browser!'>
+    <meta name='twitter:image' content='https://airhorner.com/images/touch/Airhorner_192.png'>
+    <meta name='twitter:creator' content='@paul_kinlan'>
+    
+    <link rel="stylesheet" href="style-custom.css">
+    <link rel="stylesheet" href="style-responsive.css">
+    <link rel="stylesheet" href="style.css">
+    <style>   /* for menu hamberger */  
+             
+             label .menu {
+               position: absolute;
+               right: -100px;
+               top: -100px;
+               z-index: 100;
+               width: 200px;
+               height: 200px;
+               background:#82b440;
+               border-radius: 50% 50% 50% 50%;
+               -webkit-transition: .5s ease-in-out;
+               transition: .5s ease-in-out;
+               box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+               cursor: pointer;
+             }
+             
+             label .hamburger {
+               position: absolute;
+               top: 135px;
+               left: 50px;
+               width: 30px;
+               height: 2px;
+               background: #000;
+               display: block;
+               -webkit-transform-origin: center;
+               transform-origin: center;
+               -webkit-transition: .5s ease-in-out;
+               transition: .5s ease-in-out;
+             }
+             
+             label .hamburger:after, label .hamburger:before {
+               -webkit-transition: .5s ease-in-out;
+               transition: .5s ease-in-out;
+               content: "";
+               position: absolute;
+               display: block;
+               width: 100%;
+               height: 100%;
+               background: #000;
+             }
+             
+             label .hamburger:before { top: -10px; }
+             
+             label .hamburger:after { bottom: -10px; }
+             
+             label input { display: none; }
+             
+             label input:checked + .menu {
+               box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
+               border-radius: 0;
+             }
+             
+             label input:checked + .menu .hamburger {
+               -webkit-transform: rotate(45deg);
+               transform: rotate(45deg);
+             }
+             
+             label input:checked + .menu .hamburger:after {
+               -webkit-transform: rotate(90deg);
+               transform: rotate(90deg);
+               bottom: 0;
+             }
+             
+             label input:checked + .menu .hamburger:before {
+               -webkit-transform: rotate(90deg);
+               transform: rotate(90deg);
+               top: 0;
+             }
+             
+             label input:checked + .menu + ul { opacity: 1; }
+             
+             label ul {
+               z-index: 200;
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               -webkit-transform: translate(-50%, -50%);
+               transform: translate(-50%, -50%);
+               opacity: 0;
+               -webkit-transition: .25s 0s ease-in-out;
+               transition: .25s 0s ease-in-out;
+             }
+             label h4 {
+                 margin-left: 20px;
+                 word-spacing: 2px;
+                 margin: 0 0.5em 0 -0.75em;
+             }
+             label a {
+               margin-bottom: 1em;
+               display: block;
+               color: #000;
+               text-decoration: none;
+             }
+     </style>
+
+   <!-- end of menu-->
+  </head>
+  
+
+
+
+
+    
+   <!--copy from mekongforum-->
+   <body data-gr-c-s-loaded="true">
+    <div class="body-wrapper  float-menu" data-home="https://mekongtourismforum.org">
+        
+        <!--start menu hamberger-->
+       <!-- Top Navigation Menu -->
+<label>
+        <input type='checkbox'>
+        <span class='menu'> <span class='hamburger'></span> </span>
+        <ul>       
+
+        <h2><a href="program.html">Program</a></h2> 
+        <h2><a href="speakers.html">Speakers</a></h2> 
+        <h2><a href="partners.html">Partners</a></h2> 
+        <h2><a href="information.html">Information</a></h2>
+        </ul>        
+
+</label>
+        <!--end menu hamberger-->        
+               
+                
+
+
+
+        
+		<header class="gdlr-header-wrapper">
+            <!-- top navigation -->
+
+            <!-- logo -->
+            <div class="gdlr-header-inner">
+                <div class="gdlr-header-container container">
+				   <!-- logo -->
+                    <div class="gdlr-logo">
+                        <a href="https://mekongtourismforum.org">
+                            <img src="images/icons/MTF2019-logo.jpg" alt="" width="134" height="80" scale="0"> </a>
+                       
+                    </div>
+                    <!-- navigation -->  
+                </div>
+            </div>           
+        </header>
+		<!--body-->
+        <section id="content-section-2">
+            <div class="gdlr-color-wrapper  gdlr-show-all no-skin" style="background-color: #ffffff; padding-top: 65px; padding-bottom: 35px; ">
+                <div class="container">
+
+
+
+
+                    
+                     <!--content web-->
+                     <div class="container">
+                            <div class="content-wrapper">
+                               <div class="gdlr-content">
+                                     <div class="with-sidebar-wrapper gdlr-type-no-sidebar">
+                                       <center><h1>MEKONG TOURISM FORUM 2019</h1>
+                                       <div class="gdlr-item-title-caption gdlr-skin-info">Tourism – a driver for cultural heritage preservation and poverty alleviation</div>
+                                       <div class="gdlr-item-title-nav">
+                                           <a class="gdlr-item-title-link gdlr-info-font" href="MTF18_PostReport_06.pdf">Download MTF 2018 post report</a></div>
+                                        </center>
+                                      
+                                        <div class="gdlr-content">
+                           
+                                               <!-- Above Sidebar Section-->
+                                                               
+                                               <!-- Sidebar With Content Section-->
+                                                           <div class="main-content-container container gdlr-item-start-content">
+                                                       <div class="gdlr-item gdlr-main-content">
+                                                           <h3><strong>Dali, Yunnan<br>
+                                       </strong></h3>
+                                  
+                                       <p><b>Dali City</b>,&nbsp;formerly known&nbsp;as&nbsp;<b>Tali</b>, is the&nbsp;county-level&nbsp;seat&nbsp;of the&nbsp;Dali Bai Autonomous Prefecture&nbsp;in northwestern&nbsp;Yunnan. Dali is the seat of Dali Prefecture and includes Dali New City (下关,&nbsp;<i>Xiàguān</i>) and Dali Old Town (古城,&nbsp;<i>Gǔchéng</i>).</p>
+                                       <p>Dali Old Town is one of the most popular tourist destinations in Yunnan, known for its natural scenery, historical and cultural heritage, and vibrant nightlife.<sup id="cite_ref-4" class="reference"></sup></p>
+                                       <p>&nbsp;</p>
+                                       <h3>What to see and do</h3>
+                                       <p>Dali as a centre of the Dali Bai Autonomous Prefecture gathers 25 ethnic minorities to create a unique background with kinds of ancient towns and historical buildings. With its geographical location and pleasant weather, there are many&nbsp;top attractions&nbsp;to see in Dali.</p>
+                                       <p>Cangshan Mountain&nbsp;and&nbsp;Erhai Lake&nbsp;are praised as the city’s leading scenic areas. Most attractions lie between these two landmarks, such as the Butterfly Spring and&nbsp;the Three Pagodas. Also, there are many activities held, like the&nbsp;Spring Fair,&nbsp;Bai Torch Festival, etc.</p>
+                                       <h3>Hiking in Cangshan</h3>
+                                       <p><a href="images/cangshan-mountain-hiking.jpg" data-rel="fancybox">
+                                           <img class="size-medium wp-image-6280 aligncenter" src="images/cangshan-mountain-hiking.jpg" alt="" width="300" height="200"  sizes="(max-width: 300px) 100vw, 300px" style="opacity: 1;"></a></p>
+                                       <p>Hiking Cangshan Mountain from West of Dali Old Town is the best way to experience the beauty of this mountain, also the safest way with well-paved roads. It takes only one hour to get the walking trail (named Cloud Pass) where 2 km away from Zhonghe Temple in the north. Along the way, you may see local people doing their morning exercises.</p>
+                                       <h3>Cycling around Erhai Lake</h3>
+                                       <p><a href="images/erhai.jpg" data-rel="fancybox"><img class="size-medium wp-image-6281 aligncenter" src="images/erhai.jpg" alt="" width="300" height="188"  sizes="(max-width: 300px) 100vw, 300px" style="opacity: 1;"></a></p>
+                                       <p>North-South length of the lake is 40 km and the East-West width is roughly 7–8 km. Its area is 250 square kilometres, making it the second largest highland lake of China</p>
+                                       <p>Dali is just one of the small ancient towns locates around Erhai Lake. If you are staying in Dali for a few days, don’t forget to grab a bike and explore Erhai Lake region. There are numbers of biking courses you can enjoy: a half day, a full day, or even two full days.</p>
+                                       <p>Xizhou, a charming small town located 20km northwest from Dali is a good place to visit by bicycle. Xizhou is not the major travellers’ destination, but it’s a good size to spend a day.&nbsp;Seeing the Bai architecture is not to miss in Xizhou.</p>
+                                       <h3>Explore the Historic Area</h3>
+                                       <p><a href="images/dalisanta.jpg" data-rel="fancybox">
+                                           <img class="size-medium wp-image-6278 aligncenter" src="images/dalisanta.jpg" alt="" width="300" height="188"  sizes="(max-width: 300px) 100vw, 300px" style="opacity: 1;"></a></p>
+                                       <p>The&nbsp;Three Pagodas, around 3km north of the Dali Old Town, is Dali’s most iconic landmarks, three Layered, cream-coloured pagodas gently tapering towards their summits. The oldest pagoda was built around 850 when the region was a major Buddhist centre. The Three Pagodas look best at a distance.&nbsp;Chongsheng Temple&nbsp;adjoins the Three Pagodas and was the largest monastery in this area.</p>
+                                       <p>More information about Dali&nbsp;
+                                           <a href="https://www.chinadiscovery.com/dali-tours/things-to-do.html">https://www.chinadiscovery.com/dali-tours/things-to-do.html </a>
+                                           and&nbsp;<a href="http://runawayjuno.com/runaway-to/asia/china/what-to-do-in-dali-yunnan-province-china/">http://runawayjuno.com/runaway-to/asia/china/what-to-do-in-dali-yunnan-province-china/</a></p>
+                                                       </div>
+                                                   </div>
+                                                   
+                                               
+                                               <!-- Below Sidebar Section-->
+                                               
+                                               
+                                           </div>
+                           
+                                       </div>         
+                                     </div>
+                           
+                                  </div>
+                             </div>
+                     <!--end of content web-->
+                    
+                    
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </section>
+        <!--body-->     
+    </footer>
+    <div class="copyright-wrapper">
+              <div class="copyright-container container">
+                 
+                         
+                              Mekong Tourism Coordinating Office - MTF 2019 © Copyright, All Right Reserved	
+                        
+                  <div class="clear"></div>
+              </div>
+  </div>
+  </footer>
+   
+   <!--end from copy mekongforum-->
+
+
+
+    <script src=/scripts/main.min.js></script>
+    <script src=/scripts/comlink.global.js></script>
+    <script src=/scripts/messagechanneladapter.global.js></script>
+    
+    
+    
+    
+    
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' })
+          .then(function(registration) {
+                console.log('Service Worker Registered');
+          });
+
+        navigator.serviceWorker.ready.then(function(registration) {
+           console.log('Service Worker Ready');
+        });
+      }
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-59325548-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+
+  <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+        ga('create', 'UA-46156385-1', 'cssscript.com');
+        ga('send', 'pageview');
+      
+      </script>
+
+
+</html>
